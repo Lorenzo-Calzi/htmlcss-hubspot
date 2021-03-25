@@ -102,7 +102,7 @@ line-height: 100px;
 .bottom_right ul li{
     display: inline-block;
     list-style: none;
-    margin-left: 10px;
+    margin-left: 17px;
 }
 /* /NavBar Bottom */
 
@@ -120,7 +120,6 @@ line-height: 100px;
 /* Primo Blocco Main */
 .container_content{
     width: 70%;
-    /* height: 500px; */  /* Da rimuovere */
     margin: auto;
 }
 
@@ -132,22 +131,27 @@ line-height: 100px;
 .title{
     font-size: 25px;
     color: rgba(51, 71, 91, 1);
+    padding-top: 40px;
 }
 
-.button_main a{
-    text-decoration: none;
-    color: white;
+.button_main{ 
     background-color: rgba(254, 119, 90, 1);
     border: 1px solid rgba(254, 119, 90, 1);
     border-radius: 5px;
     padding: 20px 30px 20px 30px; 
     font-size: 15px;
+    width: 30%;
+}
+
+.button_main a{
+    text-decoration: none;
+    color: white;
 }
 
 .paragraph_top{
     line-height: 25px;
-    margin-bottom: 8%;
-    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-top: 6%;
     font-size: 15px;
     font-weight: 600;
     color: rgba(51, 71, 91, 1)   
@@ -156,7 +160,7 @@ line-height: 100px;
 .second_paragraph_top{
     line-height: 25px;
     margin-bottom: 8%;
-    margin-top: 8%;
+    margin-top: 5%;
     font-size: 12px;
     font-weight: 600;
     color: rgba(51, 71, 91, 1)   
@@ -182,6 +186,8 @@ line-height: 100px;
 
 .paragraph_second_block{
     font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
     color: rgba(51, 71, 91, 1) 
 }
 /* Secondo Blocco Main */
@@ -192,6 +198,7 @@ line-height: 100px;
     border-radius: 5px;
     box-shadow: 1px 1px 5px 5px rgba(230, 236, 241, 1);
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .left{
@@ -227,7 +234,6 @@ line-height: 100px;
 .title_right{
     margin-top: 8%;
     font-size: 25px;
-
 }
 
 .paragraph_right, .subtitle_right, .list_right{
@@ -245,14 +251,11 @@ line-height: 100px;
    font-size: 20px; 
 }
 
-.column
-
 .list_right li{
     display: inline-block;
     list-style: none;
     margin-left: 0px;
     color: rgba(51, 71, 91, 1);
-    margin-left: 20px;
 }
 
 .list_right i{
@@ -261,7 +264,122 @@ line-height: 100px;
     background-color: rgba(254, 119, 90, 1);
     font-size: 15px;
     padding: 3px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+/* /Terzo Blocco Main */
+
+/* Quarto Blocco Main */
+.container_fourth_block{
+    height: 1000px;
+}
+.first_column{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(230, 236, 241, 1);
+    margin-top: 50px;
 }
 
+.img_columns{
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title_colums{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgba(51, 71, 91, 1);
+}
+
+.paragraph_colums{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+    font-size: 13px; 
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(51, 71, 91, 1) 
+}
+
+.line_columns{
+    border: 1px solid black;
+    background: black;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.subtitle_colums{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgba(51, 71, 91, 1);
+}
+
+.list_colums{
+    list-style: none;
+    text-align: left;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    color: rgba(51, 71, 91, 1) 
+}
+
+.list_colums li{
+    margin-bottom: 5px;
+    color: rgba(51, 71, 91, 1);
+}
+
+.list_colums i{
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(254, 119, 90, 1);
+    font-size: 15px;
+    padding: 3px;
+    margin-right: 15px;
+}
+
+.button_colums{
+    background-color: rgba(254, 119, 90, 1);
+    border: 1px solid rgba(254, 119, 90, 1);
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.button_colums a{
+    text-decoration: none;
+    color: white;
+}
+
+.second_column{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(230, 236, 241, 1);
+    margin-top: 50px;
+}
+
+.third_column{
+    width: 30%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(230, 236, 241, 1);
+    margin-top: 50px;
+}
+/* /Quarto Blocco Main */
 
 

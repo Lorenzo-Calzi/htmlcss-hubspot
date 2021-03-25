@@ -15,14 +15,12 @@
 header{
     width: 100%;
     height: 200px;
-    background-color: red;
 }
 
 .container_navbar{
     width: 70%;
     height: 100%;
     margin: auto;
-    background-color: white;
 }
 
 .navbar{
@@ -30,8 +28,8 @@ header{
     height: 50%;
 }
 
+/* NavBar Top */
 .top{
-    background-color: yellow;
     line-height: 100px;
 }
 
@@ -46,6 +44,8 @@ header{
 .globe_img{
     height: 13px;
     margin-right: 5px;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .trattino{
@@ -55,11 +55,6 @@ header{
 
 .search_img{
     height: 13px;
-}
-
-.bottom{
-    background-color: green;
-    line-height: 100px;
 }
 
 .button{
@@ -80,3 +75,30 @@ header{
     background-color: rgba(254, 119, 90, 1);
     border: 1px solid rgba(254, 119, 90, 1);
 }
+/* /NavBar Top */
+
+/* NavBar Bottom */
+.bottom{
+line-height: 100px;
+}
+
+.bottom_left{ 
+    float: left;
+}
+
+.site_logo{
+    height: 30px;
+    margin-top: 30%;
+}
+
+.bottom_right{ 
+    float: right;
+}
+
+.bottom_right ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+}
+/* /NavBar Bottom */
+

@@ -14,7 +14,6 @@
 
 header{
     width: 100%;
-    height: 200px;
 }
 
 .container_navbar{
@@ -60,20 +59,21 @@ header{
 .button{
     text-decoration: none;
     padding: 15px ;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: 15px;
-    margin-left: 20px;
 }
 
 .top_white{
     color: rgba(253, 136, 111, 1);
-    border: 1px solid rgba(253, 136, 111, 1)
+    border: 1px solid rgba(253, 136, 111, 1);
+    margin-left: 20px;
 }
 
 .top_orange{
     color: white;
     background-color: rgba(254, 119, 90, 1);
     border: 1px solid rgba(254, 119, 90, 1);
+    margin-left: 20px;
 }
 /* /NavBar Top */
 
@@ -101,4 +101,47 @@ line-height: 100px;
     margin-left: 10px;
 }
 /* /NavBar Bottom */
+
+/* Main */
+
+.container_main{
+    width: 100%;
+    height: 600px;
+}
+
+.container_content{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.container_title{
+    width: 60%;
+    height: 100%;
+}
+
+.title{
+    font-size: 25px;
+    color: rgba(51, 71, 91, 1);
+}
+
+.button_main a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(254, 119, 90, 1);
+    border: 1px solid rgba(254, 119, 90, 1);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px; 
+    font-size: 15px;
+}
+
+.paragraph{
+    line-height: 25px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(51, 71, 91, 1)
+    
+}
 

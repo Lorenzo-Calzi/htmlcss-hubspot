@@ -12,6 +12,10 @@
     clear: both;
 }
 
+body{
+    background-color: rgba(244, 249, 253, 1);
+}
+
 header{
     width: 100%;
 }
@@ -151,8 +155,7 @@ line-height: 100px;
 /* /Primo Blocco Main */
 
 /* Secondo Blocco Main */
-
-.prova{
+.container_second_block{
     text-align: center;
 }
 .img_second_block{
@@ -162,6 +165,55 @@ line-height: 100px;
 
 .title_second_block{
     margin-bottom: 3%;
+}
+/* Secondo Blocco Main */
+
+/* Terzo Blocco Main */
+.container_third_block{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(230, 236, 241, 1);
+}
+
+.left{
+    width: 30%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+
+.img_book{
+    height: 30%;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.right{
+    width: 70%;
+    height: 300px;
+    float: left;
+}
+
+.title_right{
+    margin-top: 8%;
+    font-size: 25px;
+}
+
+.list_right li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    color: rgba(51, 71, 91, 1) 
+}
+
+.paragraph_right, .subtitle_right, .list_right{
+    margin-top: 25px;
+}
+
+.paragraph_right{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(51, 71, 91, 1)   
 }
 
 

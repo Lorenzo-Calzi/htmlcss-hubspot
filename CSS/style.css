@@ -120,7 +120,7 @@ line-height: 100px;
 /* Primo Blocco Main */
 .container_content{
     width: 70%;
-    height: 500px;  /* Da rimuovere */
+    /* height: 500px; */  /* Da rimuovere */
     margin: auto;
 }
 
@@ -144,7 +144,7 @@ line-height: 100px;
     font-size: 15px;
 }
 
-.paragraph{
+.paragraph_top{
     line-height: 25px;
     margin-bottom: 8%;
     margin-top: 8%;
@@ -152,6 +152,17 @@ line-height: 100px;
     font-weight: 600;
     color: rgba(51, 71, 91, 1)   
 }
+
+.second_paragraph_top{
+    line-height: 25px;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(51, 71, 91, 1)   
+}
+
+
 /* /Primo Blocco Main */
 
 /* Secondo Blocco Main */
@@ -165,6 +176,13 @@ line-height: 100px;
 
 .title_second_block{
     margin-bottom: 3%;
+    font-size: 30px;
+    color: rgba(51, 71, 91, 1) 
+}
+
+.paragraph_second_block{
+    font-size: 17px;
+    color: rgba(51, 71, 91, 1) 
 }
 /* Secondo Blocco Main */
 
@@ -173,6 +191,7 @@ line-height: 100px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 5px 5px rgba(230, 236, 241, 1);
+    margin-top: 50px;
 }
 
 .left{
@@ -183,13 +202,24 @@ line-height: 100px;
 }
 
 .img_book{
-    height: 30%;
+    height: 35%;
     margin-top: 20%;
-    margin-bottom: 8%;
+    margin-bottom: 12%;
+}
+
+.button_main_orange{
+    text-decoration: none;
+    padding: 20px 40px 20px 40px; 
+    border-radius: 5px;
+    font-size: 15px; 
+    color: white;
+    background-color: rgba(254, 119, 90, 1);
+    border: 1px solid rgba(254, 119, 90, 1);
+    margin-left: 20px;
 }
 
 .right{
-    width: 70%;
+    width: 60%;
     height: 300px;
     float: left;
 }
@@ -197,13 +227,7 @@ line-height: 100px;
 .title_right{
     margin-top: 8%;
     font-size: 25px;
-}
 
-.list_right li{
-    display: inline-block;
-    list-style: none;
-    margin-left: 10px;
-    color: rgba(51, 71, 91, 1) 
 }
 
 .paragraph_right, .subtitle_right, .list_right{
@@ -213,7 +237,30 @@ line-height: 100px;
 .paragraph_right{
     font-size: 15px;
     font-weight: 600;
+    line-height: 30px;
     color: rgba(51, 71, 91, 1)   
+}
+
+.subtitle_right{
+   font-size: 20px; 
+}
+
+.column
+
+.list_right li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 0px;
+    color: rgba(51, 71, 91, 1);
+    margin-left: 20px;
+}
+
+.list_right i{
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(254, 119, 90, 1);
+    font-size: 15px;
+    padding: 3px;
 }
 
 

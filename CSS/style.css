@@ -104,17 +104,19 @@ line-height: 100px;
 
 /* Main */
 
-.container_main{
+.container_top_main{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image: url('../img/jumbotron.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: right bottom;
 }
 
+/* Primo Blocco Main */
 .container_content{
     width: 70%;
+    height: 500px;  /* Da rimuovere */
     margin: auto;
 }
 
@@ -144,7 +146,23 @@ line-height: 100px;
     margin-top: 8%;
     font-size: 15px;
     font-weight: 600;
-    color: rgba(51, 71, 91, 1)
-    
+    color: rgba(51, 71, 91, 1)   
 }
+/* /Primo Blocco Main */
+
+/* Secondo Blocco Main */
+
+.prova{
+    text-align: center;
+}
+.img_second_block{
+    height: 150px;
+    margin-top: 5%;
+}
+
+.title_second_block{
+    margin-bottom: 3%;
+}
+
+
 

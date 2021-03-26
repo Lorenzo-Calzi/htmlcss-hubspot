@@ -509,13 +509,13 @@ header{
 
 /* Colonna di Sinistra */
 .left_six_column{
-    width: 50%;
+    width: 40%;
     height: 400px;
     float: left;
 }
 
 .top_left_six{
-    width: 40%;
+    width: 60%;
     margin: auto;
     height: 50%;
     margin-bottom: 60px;
@@ -531,9 +531,10 @@ header{
 
 .top_left_six p{
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 550;
     color: rgba(75, 92, 109, 1);
     line-height: 25px;
+    width: 90%;
 }
 
 .bottom_left_six{
@@ -542,16 +543,17 @@ header{
 }
 
 .title_left_six{
-    font-size: 34px;
+    font-size: 30px;
     color: rgba(51, 71, 91, 1);
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .bottom_left_six p{
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 550;
     color: rgba(75, 92, 109, 1);
     margin-bottom: 40px;
+    line-height: 20px;
 }
 
 .button_left_six{
@@ -560,15 +562,15 @@ header{
     padding: 20px 40px 20px 40px;
     border-radius: 5px;
     font-size: 16px;
-    width: 40%;
+    width: 50%;
     margin-bottom: 50px;
     cursor: pointer;
+    text-align: center;
 }
 
 .button_left_six a{
     text-decoration: none;
     color: rgba(255, 245, 244, 1);
-    text-align: center;
 }
 
 .bottom_left_six p:last-child{
@@ -580,16 +582,22 @@ header{
 /* Fine Colonna di Sinistra */
 
 .right_six_column{
-    width: 50%;
-    height: 400px;
+    width: 60%;
     float: left;
+    text-align: center;
 }
 
 .top_right_six{
-    width: 100%;
+    width: 25%;
     height: 50%;
-    background-color: blueviolet;
+    float: left;
 }
+
+ .img_six_block img{
+    height: 17px;
+    display: inline-block;
+    margin-top: 55px;
+} 
 
 .bottom_right_six{
     width: 100%;

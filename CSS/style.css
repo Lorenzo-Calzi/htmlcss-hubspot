@@ -455,11 +455,10 @@ header{
 
 .four_columns{
     width: 25%;
-    height: 300px;
     float: left;
     margin-top: 40px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .top_four_columns{
@@ -488,6 +487,7 @@ header{
 
 .description_four_columns{
     font-size: 11px;
+    margin-bottom: 20px;
 }
 
 .bottom_four_columns{
@@ -504,7 +504,6 @@ header{
 /* Sesto Blocco Main */
 .container_six_block{
     width: 100%;
-    height: 800px;
 }
 
 /* Colonna di Sinistra */
@@ -576,8 +575,9 @@ header{
     color: rgba(75, 92, 109, 1);
 }
 
-/* Fine Colonna di Sinistra */
+/* /Fine Colonna di Sinistra */
 
+/* Colonna di Sinistra */
 .right_six_column{
     width: 60%;
     float: left;
@@ -605,9 +605,40 @@ header{
 
 .bottom_right_six img{
     height: 350px;
-    margin-top: 80px;
+    margin-top: 80px;  
+}
+/* /Fine Colonna di Destra */
+/* Fine Main */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: rgba(50, 73, 91, 1);
+}
+.container_footer{
+    width: 100%;
+    height: 300px;
     
 }
+.four_columns_footer{
+    width: 25%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-weight: 400;
+}
 
+.four_columns_footer h5{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 17px;
 
+}
 
+.four_columns_footer li{
+    list-style: none;
+    color: rgba(201, 213, 225, 1);
+    margin-bottom: 15px;
+    font-size: 15px;
+} 

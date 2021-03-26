@@ -505,7 +505,6 @@ header{
 .container_six_block{
     width: 100%;
     height: 800px;
-    background-color: red;
 }
 
 /* Colonna di Sinistra */
@@ -516,38 +515,75 @@ header{
 }
 
 .top_left_six{
-    width: 60%;
+    width: 40%;
     margin: auto;
     height: 50%;
-    text-align:
+    margin-bottom: 60px;
 }
 
 .numbers_six_colums{
     font-size: 50px;
     font-weight: 600;
     color: rgba(51, 71, 91, 1);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 .top_left_six p{
     font-size: 17px;
-    font-weight: 600;
-    color: rgba(51, 71, 91, 1);
+    font-weight: 500;
+    color: rgba(75, 92, 109, 1);
+    line-height: 25px;
 }
 
 .bottom_left_six{
     width: 100%;
     height: 50%;
-    background-color: orange;
 }
+
+.title_left_six{
+    font-size: 34px;
+    color: rgba(51, 71, 91, 1);
+    margin-bottom: 40px;
+}
+
+.bottom_left_six p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(75, 92, 109, 1);
+    margin-bottom: 40px;
+}
+
+.button_left_six{
+    background-color: rgba(254, 119, 90, 1);
+    border: 1px solid rgba(254, 119, 90, 1);
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 40%;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.button_left_six a{
+    text-decoration: none;
+    color: rgba(255, 245, 244, 1);
+    text-align: center;
+}
+
+.bottom_left_six p:last-child{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(75, 92, 109, 1);
+}
+
+/* Fine Colonna di Sinistra */
 
 .right_six_column{
     width: 50%;
     height: 400px;
     float: left;
 }
-/* Fine Colonna di Sinistra */
 
 .top_right_six{
     width: 100%;

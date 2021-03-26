@@ -441,7 +441,6 @@ header{
 .background_fift_block{
     margin-top: 100px;
     width: 100%;
-    height: 600px;
     background: linear-gradient(90deg, #00A7BA 0%, #00B8AA 100%);;
 }
 
@@ -450,14 +449,14 @@ header{
 }
 
 .title_fift{
-    font-size: 18px;
+    font-size: 30px;
     padding-top: 30px;
     text-align: center;
 }
 
 .paragraph_fift{
-    color: white;
-    font-size: 10px;
+    color: rgba(251, 253, 253, 1);
+    font-size: 15px;
     padding-top: 20px;
     text-align: center; 
 }
@@ -468,27 +467,31 @@ header{
     float: left;
     margin-top: 40px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .top_four_columns{
     width: 100%;
     height: 50%;
-    background-color: blueviolet;
+    border-bottom: 1px solid rgba(137, 218, 219, 1);
+    border-right: 1px solid rgba(137, 218, 219, 1);
 }
 
 .img_four_columns{
     height: 30px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .numbers_four_columns{
     font-size: 30px;
-    margin-bottom: 10%;
+    font-weight: 600;
+    margin-bottom: 6%;
 }
 
 .numbers_four_columns span:last-child{
     font-size: 25px;
+    font-weight: 100;
 }
 
 .description_four_columns{
@@ -498,8 +501,11 @@ header{
 .bottom_four_columns{
     width: 100%;
     height: 50%;
-    background-color: aqua; 
+    border-right: 1px solid rgba(137, 218, 219, 1);
 }
 
+.without_border{
+    border-right: none;
+}
 
 

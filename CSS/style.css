@@ -510,14 +510,12 @@ header{
 /* Colonna di Sinistra */
 .left_six_column{
     width: 40%;
-    height: 400px;
     float: left;
 }
 
 .top_left_six{
     width: 60%;
     margin: auto;
-    height: 50%;
     margin-bottom: 60px;
 }
 
@@ -539,7 +537,6 @@ header{
 
 .bottom_left_six{
     width: 100%;
-    height: 50%;
 }
 
 .title_left_six{
@@ -584,13 +581,16 @@ header{
 .right_six_column{
     width: 60%;
     float: left;
-    text-align: center;
+    text-align: right;
 }
 
 .top_right_six{
     width: 25%;
-    height: 50%;
     float: left;
+}
+
+.container_foto{
+    text-align: left;
 }
 
  .img_six_block img{
@@ -601,6 +601,13 @@ header{
 
 .bottom_right_six{
     width: 100%;
-    height: 50%;
-    background-color: grey;
 }
+
+.bottom_right_six img{
+    height: 350px;
+    margin-top: 80px;
+    
+}
+
+
+

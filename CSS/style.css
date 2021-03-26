@@ -48,11 +48,9 @@ header{
     float: right;
 }
 
-.globe_img{
+.fa-globe-europe{
     height: 13px;
     margin-right: 5px;
-    border-radius: 50%;
-    background-color: rgba(53, 76, 93, 1);
     cursor: pointer;
 }
 
@@ -310,14 +308,9 @@ header{
     background-color: rgba(254, 119, 90, 1);
 }
 /* FIne Colonna di Destra */
-
 /* Fine Terzo Blocco Main */
 
 /* Quarto Blocco Main */
-.container_fourth_block{
-
-}
-
 /* Colonna di Sinistra */
 .first_column{
     width: 30%;
@@ -434,7 +427,6 @@ header{
     color: rgba(255, 245, 244, 1);
 }
 /* Fine Regole delle 3 colonne */
-
 /* Fine Quarto Blocco Main */
 
 /* Quinto Blocco Main */
@@ -507,5 +499,64 @@ header{
 .without_border{
     border-right: none;
 }
+/* /Quinto Blocco Main */
 
+/* Sesto Blocco Main */
+.container_six_block{
+    width: 100%;
+    height: 800px;
+    background-color: red;
+}
 
+/* Colonna di Sinistra */
+.left_six_column{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.top_left_six{
+    width: 60%;
+    margin: auto;
+    height: 50%;
+    text-align:
+}
+
+.numbers_six_colums{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(51, 71, 91, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top_left_six p{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(51, 71, 91, 1);
+}
+
+.bottom_left_six{
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+}
+
+.right_six_column{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+/* Fine Colonna di Sinistra */
+
+.top_right_six{
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.bottom_right_six{
+    width: 100%;
+    height: 50%;
+    background-color: grey;
+}

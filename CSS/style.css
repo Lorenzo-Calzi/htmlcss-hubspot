@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .clearfix::after{
@@ -160,7 +159,7 @@ header{
     margin-bottom: 5%;
     margin-top: 5%;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgba(51, 71, 91, 1);  
 }
 
@@ -170,7 +169,7 @@ header{
     border-radius: 5px;
     padding: 20px 30px 20px 30px; 
     font-size: 15px;
-    width: 30%;
+    width: 200px;
     cursor: pointer;
     text-align: center;
 }
@@ -184,8 +183,8 @@ header{
     line-height: 25px;
     margin-bottom: 8%;
     margin-top: 5%;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     color: rgba(51, 71, 91, 1);    
 }
 
@@ -220,7 +219,7 @@ header{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    color: rgba(87, 103, 120, 1);
+    color: rgba(78, 94, 110, 1);
 }
 /* Fine Secondo Blocco Main */
 
@@ -271,6 +270,7 @@ header{
     margin-top: 8%;
     font-size: 25px;
     color: rgba(51, 71, 91, 1);
+    font-weight: 600;
 }
 
 .paragraph_right, .subtitle_right, .list_right{
@@ -282,12 +282,13 @@ header{
     font-size: 15px;
     font-weight: 600;
     line-height: 30px;
-    color: rgba(62, 81, 100, 1);
+    color: rgba(70, 87, 104, 1)
 }
 
 .subtitle_right{
    font-size: 20px; 
    color: rgba(51, 71, 91, 1);
+   font-weight: 600;
    display: inline-block;
 }
 
@@ -308,7 +309,7 @@ header{
     font-size: 15px;
     line-height: 30px;
     margin-right: 10px;
-    color: rgba(69, 86, 105, 1);
+    color: rgba(70, 87, 104, 1);
 }
 
 .list_right i{
@@ -381,7 +382,7 @@ header{
     font-size: 1rem; 
     font-weight: 600;
     line-height: 30px;
-    color: rgba(51, 71, 91, 1);
+    color: rgba(77, 94, 111, 1)
 }
 
 .line_columns{
@@ -396,6 +397,7 @@ header{
     font-size: 18px;
     margin-bottom: 30px;
     color: rgba(51, 71, 91, 1);
+    font-weight: 600;
 }
 
 .list_colums{
@@ -405,12 +407,12 @@ header{
     width: 80%;
     margin: auto;
     font-weight: 600;
-    color: rgba(51, 71, 91, 1) 
+    color: rgba(77, 94, 111, 1)
 }
 
 .list_colums li{
     margin-bottom: 5px;
-    color: rgba(51, 71, 91, 1);
+    color: rgba(77, 94, 111, 1)
 }
 
 .list_colums i{
@@ -428,16 +430,18 @@ header{
     padding: 20px 40px 20px 40px;
     border-radius: 5px;
     font-size: 16px;
-    width: 60%;
+    width: 200px;
     margin: auto;
     margin-bottom: 30px;
     cursor: pointer;
+    text-align: center;
 }
 
 .button_colums a{
     text-decoration: none;
     color: rgba(255, 245, 244, 1);
 }
+
 /* Fine Regole delle 3 colonne */
 /* Fine Quarto Blocco Main */
 
@@ -516,6 +520,7 @@ header{
 /* Sesto Blocco Main */
 .container_six_block{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 /* Colonna di Sinistra */
@@ -532,16 +537,20 @@ header{
 
 .numbers_six_colums{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgba(51, 71, 91, 1);
     padding-top: 30px;
     padding-bottom: 25px;
 }
 
+.left_six_column strong {
+    color: rgba(52, 72, 92, 1);
+}
+
 .top_left_six p{
     font-size: 17px;
-    font-weight: 550;
-    color: rgba(75, 92, 109, 1);
+    font-weight: 600;
+    color: rgba(90, 106, 121, 1);
     line-height: 25px;
     width: 90%;
 }
@@ -552,15 +561,15 @@ header{
 
 .title_left_six{
     font-size: 30px;
-    color: rgba(51, 71, 91, 1);
-    margin-bottom: 35px;
+    color: rgba(52, 71, 91, 1);
+    margin-bottom: 30px;
 }
 
 .bottom_left_six p{
     font-size: 13px;
-    font-weight: 550;
-    color: rgba(75, 92, 109, 1);
-    margin-bottom: 40px;
+    font-weight: 600;
+    color: rgba(90, 106, 121, 1);
+    margin-bottom: 35px;
     line-height: 20px;
 }
 
@@ -570,8 +579,8 @@ header{
     padding: 20px 40px 20px 40px;
     border-radius: 5px;
     font-size: 16px;
-    width: 50%;
-    margin-bottom: 50px;
+    width: 200px;
+    margin-bottom: 40px;
     cursor: pointer;
     text-align: center;
 }
@@ -584,7 +593,7 @@ header{
 .bottom_left_six p:last-child{
     font-size: 13px;
     font-weight: 600;
-    color: rgba(75, 92, 109, 1);
+    color: rgba(90, 106, 121, 1);
 }
 
 /* /Fine Colonna di Sinistra */
@@ -610,45 +619,58 @@ header{
 }
 
  .img_six_block{  /* Da chiedere */
-    height: 50px;
     width: 100%;
-    margin-top: 50px;
     background-size: contain;
     background-repeat: no-repeat;
 } 
 
 .one{
     background-image: url('../img/atlasian.webp');
+    height: 30px;
+    margin-top: 55px;
 }
 
 .two{
     background-image: url('../img/doordash.webp');
+    height: 30px;
+    margin-top: 55px;
 }
 
 .three{
     background-image: url('../img/g2crowd.webp');
+    height: 30px;
+    margin-top: 50px;
 }
 
 .four{
     background-image: url('../img/purple.webp');
+    height: 40px;
+    margin-top: 45px;
 }
 
 .five{
     background-image: url('../img/subaru.webp');
+    height: 40px;
+    margin-top: 50px;
 }
 
 .six{
     background-image: url('../img/wistia.webp');
+    height: 30px;
+    margin-top: 55px;
 }
 
 .seven{
     background-image: url('../img/classpass.webp');
+    height: 40px;
+    margin-top: 45px;
 }
 
 .eight{
     background-image: url('../img/vmware.webp');
+    height: 30px;
+    margin-top: 50px;
 }
-
 
 .bottom_right_six{
     width: 100%;
@@ -695,16 +717,21 @@ footer{
 
 .button_footer{
     font-size: 15px;
-    padding: 15px ;
+    padding: 10px 0px 10px 0px ;
     border-radius: 5px;
-    width: 77%;
-    text-decoration: none;
-    cursor: pointer;
-    color: rgba(50, 73, 91, 1);
+    width: 220px;
     background-color: rgba(218, 222, 224, 1);
     border: 1px solid rgba(218, 222, 224, 1);
     margin-bottom: 20px;
+    text-align: center;
 }
+
+.button_footer a{
+    text-decoration: none;
+    color: rgba(50, 73, 91, 1);
+    font-weight: 450;
+}
+
 
 .icon_footer{
     color: rgba(218, 222, 224, 1);

@@ -189,8 +189,8 @@ header{
     color: rgba(51, 71, 91, 1);    
 }
 
-.prova{
-    height: 90px; /* 13%; */
+.bottom_background{
+    height: 16%; /* 90px;- da chiedere */
     width: 100%;
     background-color: rgba(175, 235, 228, 1);
     border-top: 4px solid rgba(51, 71, 91, 1);
@@ -597,7 +597,11 @@ header{
 }
 
 .top_right_six{
-    width: 25%;
+    width: 20%;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
     float: left;
 }
 
@@ -605,11 +609,46 @@ header{
     text-align: left;
 }
 
- .img_six_block img{
-    height: 17px;
-    display: inline-block;
-    margin-top: 55px;
+ .img_six_block{  /* Da chiedere */
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
 } 
+
+.one{
+    background-image: url('../img/atlasian.webp');
+}
+
+.two{
+    background-image: url('../img/doordash.webp');
+}
+
+.three{
+    background-image: url('../img/g2crowd.webp');
+}
+
+.four{
+    background-image: url('../img/purple.webp');
+}
+
+.five{
+    background-image: url('../img/subaru.webp');
+}
+
+.six{
+    background-image: url('../img/wistia.webp');
+}
+
+.seven{
+    background-image: url('../img/classpass.webp');
+}
+
+.eight{
+    background-image: url('../img/vmware.webp');
+}
+
 
 .bottom_right_six{
     width: 100%;
@@ -623,7 +662,6 @@ header{
 /* Fine Main */
 
 /* Footer */
-
 footer{
     width: 100%; 
     background-color: rgba(50, 73, 91, 1);

@@ -83,7 +83,7 @@ button{
 }
 
 .dropdown-content a:hover{
-    background-color: thistle;
+    background-color: rgba(253, 136, 111, 1);
 }
 
 .dropdown:hover .dropdown-content{
@@ -186,10 +186,7 @@ button{
     margin-bottom: 20px;
     color: rgba(51, 71, 91, 1);
 }
-
-
-
-/* DropDown */
+/* Fine DropDown */
 
 
 .top_right{ 
@@ -942,8 +939,9 @@ footer{
 /* Tasto Help */
 .fix_button{
     width: 60px;
-    line-height: 60px;
-    font-size: 25px;
+    height: 60px;
+    /* line-height: 60px; */
+    
     margin-bottom: 20px;
     margin-right: 20px;
     border-radius: 50%;
@@ -952,9 +950,12 @@ footer{
     right: 0;
     bottom: 0;
     cursor: pointer;
-    color: white;
-    background-color: rgba(254, 119, 90, 1);
+    background-color: rgba(69, 95, 122, 1);
     border: 1px solid white;
+    background-image: url('../img/launcher-open-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 50%;
 }
 
 .fix_message{
@@ -969,9 +970,8 @@ footer{
     right: 0;
     bottom: 0;
     background-color: white;
-    color: rgba(254, 119, 90, 1);;
-    border: 2px solid rgba(254, 119, 90, 1);
-    border: 1px solid rgb(245, 168, 168);
+    color: rgba(69, 95, 122, 1);
+    border: 1px solid rgba(69, 95, 122, 1);
 }
 /* Fine Tasto Help */
 

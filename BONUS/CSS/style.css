@@ -69,6 +69,11 @@ header{
     background-color: white;
 }
 
+button{
+    color: rgb(59 81 91);
+    font-weight: 600;
+}
+
 .dropdown-content a {
     color: rgba(51, 71, 91, 1);
     padding: 12px 16px;
@@ -94,6 +99,31 @@ header{
 .dropdown-content span{
     color: rgb(66, 88, 110);
     font-size: 10px;
+}
+
+.software h5{
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+.software span{
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: rgb(86, 110, 133); 
+    font-weight: 600;
+}
+
+.software div{
+    margin-bottom: 30px;
+}
+
+.software hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(51, 71, 91, 1);
 }
 
 .bottom_right .dropdown-content ul li{
@@ -130,6 +160,31 @@ header{
 .third_drop_column{
     width: 33%;
     float: left;
+}
+
+.resources{
+    padding-left: 20px;
+}
+
+.resources h5{
+    font-weight: 600;
+}
+
+.resources span{
+    font-size: 9px;
+    color: rgb(86, 110, 133); 
+}
+
+.resources div{
+    margin-bottom: 30px;
+}
+
+.resources hr{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(51, 71, 91, 1);
 }
 
 
@@ -195,7 +250,8 @@ header{
 
 /* NavBar Bottom */
 .bottom{
-    line-height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .bottom_left{ 
@@ -204,8 +260,8 @@ header{
 
 .site_logo{
     height: 30px;
-    margin-top: 30%;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .bottom_right{ 
@@ -881,6 +937,21 @@ footer{
     margin-top: 90px;
     color: rgba(237, 239, 240, 1);
     padding-bottom: 40px;
+}
+
+.fix_button{
+    width: 100px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(254, 119, 90, 1);
+    border: 1px solid rgb(245, 168, 168);
+    box-shadow: 1px 1px 2px 2px rgba(230, 236, 241, 1);
 }
 
 

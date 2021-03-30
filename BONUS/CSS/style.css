@@ -102,6 +102,33 @@ button{
     font-weight: 400;
 }
 
+
+.language:before {
+    content: "";
+    position: absolute;
+    border-color: rgba(203, 214, 226, 1);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    top: -21px;
+    right: 9px;
+    z-index: 1;
+  } 
+  
+.language:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: rgba(203, 214, 226, 1);
+    z-index: 0;
+}
+
 /* DropDown Software */
 .software{
     padding-top: 30px;
@@ -132,6 +159,7 @@ button{
 
 .software h5{
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .software span{
@@ -150,6 +178,32 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgba(51, 71, 91, 1);
+}
+
+.software:before {
+    content: "";
+    position: absolute;
+    border-color: rgba(203, 214, 226, 1);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    top: -21px;
+    right: 396px;
+    z-index: 1;
+  } 
+  
+.software:after {
+    content: "";
+    position: absolute;
+    right: 397px;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: rgba(203, 214, 226, 1);
+    z-index: 0;
 }
 /* Fine DropDown Software */
 
@@ -219,7 +273,88 @@ button{
     margin-bottom: 10px;
     color: rgba(51, 71, 91, 1);
 }
+
+.resources:before {
+    content: "";
+    position: absolute;
+    border-color: rgba(203, 214, 226, 1);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    top: -21px;
+    right: 471px;
+    z-index: 1;
+  } 
+  
+.resources:after {
+    content: "";
+    position: absolute;
+    right: 472px;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: rgba(203, 214, 226, 1);
+    z-index: 0;
+}
 /* Fine DropDown Resources */
+
+/* DropDown Partners */
+.partners:before {
+    content: "";
+    position: absolute;
+    border-color: rgba(203, 214, 226, 1);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    top: -21px;
+    right: 335px;
+    z-index: 1;
+  } 
+  
+.partners:after {
+    content: "";
+    position: absolute;
+    right: 336px;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: rgba(203, 214, 226, 1);
+    z-index: 0;
+}
+/* /DropDown Partners */
+
+.about:before {
+    content: "";
+    position: absolute;
+    border-color: rgba(203, 214, 226, 1);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    top: -21px;
+    right: 237px;
+    z-index: 1;
+  } 
+  
+.about:after {
+    content: "";
+    position: absolute;
+    right: 238px;
+    top: -21px;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    border-bottom-color: rgba(203, 214, 226, 1);
+    z-index: 0;
+}
+
 /* Fine DropDown */
 
 

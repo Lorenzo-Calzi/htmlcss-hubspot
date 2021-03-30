@@ -282,14 +282,14 @@ button{
     border-width: 11px;
     margin-left: -10px;
     top: -21px;
-    right: 471px;
+    right: 453px;
     z-index: 1;
   } 
   
 .resources:after {
     content: "";
     position: absolute;
-    right: 472px;
+    right: 454px;
     top: -21px;
     width: 0;
     height: 0;
@@ -326,7 +326,7 @@ button{
     border-bottom-color: rgba(203, 214, 226, 1);
     z-index: 0;
 }
-/* /DropDown Partners */
+/* Fine DropDown Partners */
 
 .about:before {
     content: "";
@@ -339,7 +339,7 @@ button{
     top: -21px;
     right: 237px;
     z-index: 1;
-  } 
+} 
   
 .about:after {
     content: "";
@@ -353,9 +353,7 @@ button{
     border-bottom-color: rgba(203, 214, 226, 1);
     z-index: 0;
 }
-
 /* Fine DropDown */
-
 
 .top_right{ 
     float: right;
